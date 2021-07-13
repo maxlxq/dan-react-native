@@ -9,7 +9,8 @@
     "icon"
   ],
   "license": "ISC",
-  "main": "lib/icons.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -31,6 +32,9 @@
     "react-native-iconfont-cli": "^2.2.3",
     "react-native-svg": "^12.1.1"
   },
+  "peerDependencies": {
+    "react-native-svg": "^12.1.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maxlxq/dan-react-native.git"
@@ -43,5 +47,5 @@
   "bugs": {
     "url": "https://github.com/maxlxq/dan-react-native/issues"
   },
-  "gitHead": "7d1995ae2a97bd72326c0df1bc0fe160d5c4e45a"
+  "gitHead": "b6e73611e777b617ef8ca717b3cb292ca04cf28a"
 }

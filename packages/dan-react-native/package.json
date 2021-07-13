@@ -1,16 +1,17 @@
 {
   "name": "dan-react-native",
   "version": "0.0.2",
-  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "description": "React Native UI Components",
   "keywords": [
     "dan",
     "react-native",
     "dan-react-native"
   ],
   "license": "ISC",
-  "main": "lib/dan-react-native.js",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "directories": {
-    "lib": "lib",
+    "lib": "src",
     "test": "__tests__",
     "dev": "tsc -w",
     "prebuild": "del-cli lib",
@@ -18,7 +19,7 @@
     "prepublishOnly": "yarn build"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "publishConfig": {
     "access": "public"
@@ -42,7 +43,7 @@
   "bugs": {
     "url": "https://github.com/maxlxq/dan-react-native/issues"
   },
-  "gitHead": "7d1995ae2a97bd72326c0df1bc0fe160d5c4e45a",
+  "gitHead": "b6e73611e777b617ef8ca717b3cb292ca04cf28a",
   "devDependencies": {
     "onchange": "^7.1.0",
     "react-native-iconfont-cli": "^2.2.3",
