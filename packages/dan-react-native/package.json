@@ -43,7 +43,7 @@
   "bugs": {
     "url": "https://github.com/maxlxq/dan-react-native/issues"
   },
-  "gitHead": "b6e73611e777b617ef8ca717b3cb292ca04cf28a",
+  "gitHead": "f758bcf00af5fd42e88be241163b2c6b16ef73c2",
   "devDependencies": {
     "onchange": "^7.1.0",
     "react-native-iconfont-cli": "^2.2.3",
