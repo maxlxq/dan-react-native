@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.3](https://github.com/maxlxq/dan-react-native/compare/dan-react-native@0.0.2...dan-react-native@0.0.3) (2021-07-13)
+
+
+### Features
+
+* **icon:** icon ([3523782](https://github.com/maxlxq/dan-react-native/commit/352378224e622daf380c64ba2c29156ecdb156ba))
+
+
+
+
+
 ## [0.0.2](https://github.com/maxlxq/dan-react-native/compare/dan-react-native@0.0.1...dan-react-native@0.0.2) (2021-07-13)
 
 
