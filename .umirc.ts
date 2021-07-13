@@ -6,7 +6,7 @@ export default defineConfig({
   logo: 'https://img01.yzcdn.cn/vant/logo.png',
   favicon: 'https://img01.yzcdn.cn/vant/logo.png',
   base: '/dan-react-native',
-  publicPath: '/',
+  publicPath: '/dan-react-native',
   exportStatic: {},
   hash: false,
   styles: ['a[title=站长统计] { display: none; }'],
