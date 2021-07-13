@@ -13,8 +13,9 @@
     "commit": "git cz"
   },
   "dependencies": {
-    "react": "17.0.1",
-    "react-native": "0.64.2"
+    "react": "17.0.2",
+    "react-native": "0.64.2",
+    "react-native-svg": "^12.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
@@ -26,6 +27,7 @@
     "lerna": "^4.0.0",
     "metro-react-native-babel-preset": "^0.66.1",
     "react-test-renderer": "17.0.1",
+    "typescript": "^4.3.5",
     "@commitlint/cli": "^12.1.4",
     "commitizen": "^4.2.4",
     "commitlint-config-cz": "^0.13.2",
