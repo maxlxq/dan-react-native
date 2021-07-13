@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+// @ts-ignore
 import { View, Text, SafeAreaView, ScrollView } from 'react-native';
 import Icon from '@dan-react-native/icons';
+
+type IconNameType = React.ComponentProps<typeof Icon>['name'];
 
 export default class IconList extends Component {
   render() {
@@ -36,7 +39,7 @@ export default class IconList extends Component {
   }
 }
 
-const data = [
+const data: IconNameType[] = [
   'location-o',
   'like-o',
   'star-o',
