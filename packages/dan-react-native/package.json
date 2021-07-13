@@ -7,7 +7,6 @@
     "react-native",
     "dan-react-native"
   ],
-  "author": "maxlxq <542168513@qq.com>",
   "license": "ISC",
   "main": "lib/dan-react-native.js",
   "directories": {
@@ -28,6 +27,28 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@dan-react-native/icons": "^1.0.0"
+    "@dan-react-native/icons": "^0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxlxq/dan-react-native.git",
+    "directory": "packages/icons"
+  },
+  "author": {
+    "name": "maxlxq",
+    "email": "542168513@qq.com",
+    "url": "https://blog.ahulib.com"
+  },
+  "bugs": {
+    "url": "https://github.com/maxlxq/dan-react-native/issues"
+  },
+  "gitHead": "7d1995ae2a97bd72326c0df1bc0fe160d5c4e45a",
+  "devDependencies": {
+    "onchange": "^7.1.0",
+    "react-native-iconfont-cli": "^2.2.3",
+    "react-native-svg": "^12.1.1"
+  },
+  "peerDependencies": {
+    "react-native-svg": "^12.1.1"
   }
 }
