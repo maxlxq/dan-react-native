@@ -1,18 +1,14 @@
 import { defineConfig, IConfig } from 'dumi';
 
-const isProd =
-  process.env.NODE_ENV === 'production' && process.env.PREVIEW_PR !== "true";
-
 export default defineConfig({
   title: 'dan-react-native',
   mode: 'site',
   logo: 'https://img01.yzcdn.cn/vant/logo.png',
   favicon: 'https://img01.yzcdn.cn/vant/logo.png',
   base: '/dan-react-native',
-  publicPath: isProd ? 'https://cdn.jsdelivr.net/gh/youngjuning/vant-react-native@gh-pages/': '/',
+  publicPath: '/',
   exportStatic: {},
-  hash: true,
-  scripts: ['https://s9.cnzz.com/z_stat.php?id=1280093214&web_id=1280093214'],
+  hash: false,
   styles: ['a[title=站长统计] { display: none; }'],
   metas: [
     {
@@ -28,7 +24,7 @@ export default defineConfig({
     null,
     {
       title: 'GitHub',
-      path: 'https://github.com/youngjuning/vant-react-native',
+      path: 'https://github.com/maxlxq/dan-react-native',
     },
   ]
   // more config: https://d.umijs.org/config
